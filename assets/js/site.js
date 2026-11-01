@@ -483,7 +483,7 @@
    opens the login. The editor itself (/enox.cz/_admin/editor.js) is only loaded then, so visitors download nothing extra. */
 (function () {
   var DEMO = true;   // preview copies (GitHub Pages) switch this on: editing can be tried there, nothing is saved
-  var EDITOR = '/enox.cz/_admin/editor.js?v=a857bc1570', API = '/enox.cz/_admin/api.php';
+  var EDITOR = '/enox.cz/_admin/editor.js?v=3c282edb97', API = '/enox.cz/_admin/api.php';
   var down = {}, started = false;
   function start(open) {
     window.KWA_DEMO = DEMO; window.KWA_API = API;
